@@ -180,7 +180,13 @@ Aqui les dejo el archivo con el codigo en [javascript](respuestas.js).
 
 ## Manipulacion del DOM
 
-### Class
+### Como conectar js con html
+
+Para ejecutar js debemos hacerlo en un entorno de ejecucion y como imaginas son los lugares que nos dejan correr codigo, entonses aqui lo que hacemos es conectar el html con js, y basicamente lo hacemos con la etiqueta script y su src para encontrar el archivo. Ahora es mejor poner al ultimo de todo el body antes de cerrar esa etiqueta para que no haya problemas pero en si lo puedes poner donde quieras. Aqui les dejo el [codigo](index.html) de esta parte. Otra cosa es recomendable siempre tener archivos diferentes para cada tecnologia como html, css y js en un archivo aparte cada uno y enlazandolos solo con src.
+
+### Leyendo HTML desde javascript
+
+Basicamente vamos a usar la funcion `Document.get____` para obtener elementos del documento de html, aqui tenemos varias obsiones el mas comun es cojer elementos por medio del id, pero tambien puedes hacerlo por medio de una clase. Por eso tenemos diferentes formas de obtener ese elemento. Si lo ves como yo es muy pero muy parecido a lo que hace css. Tambien depende desde donde lo uses, hay cosas que solo funcionan en ese entorno de ejecucion en nodejs no funcionan estas ya que no trabaja del mismo modo que el frontend.
 
 ---
 
