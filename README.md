@@ -192,7 +192,28 @@ Basicamente vamos a usar la funcion `Document.get____` para obtener elementos de
 
 ## Contribucion a proyectos
 
-### class
+### Conectando Github a proyectos de JavaScript
+
+Basicamente estamos viendo como configurar github con git para poder trabajar en diferentes proyectos. Tambien vimos como ignorar archivos con git. Para crear los gitignore usaremos esta [pagina](https://www.toptal.com/developers/gitignore/), lo que hace esta pagina es crearte para los usuarios que trabajan en cualquier distribucion de software o herramientas como vscode. Es decir, aqui te soluciona la vida facilmente. Recuerda esto es algo que lo aprendi a la mala siempre crea tu archivo de gitignore y primero has el `add .gitignore` de este archivo y despues si has el `add .` para agregar todo lo que tengas creeme te sera de ayuda.
+
+Una buena practica es solo enviar a tu github lo necesario es desir si tienes ambientes virtuales es mejor crear un archivo dependencias e ignorar todo el ambiente.
+Otra cosa importante esque si no sabes como hacer tu rama principal main, bueno solo crea un proyecto sin nada solo con la licencia y sigue los pasos hay te lo hara solo y tambien te conectara tu proyecto con ese repositorio.
+
+### Proyectos en github desde cero
+
+Creamos nuestro proyecto en github. y simplemente podemos añadir todo lo que queramos como readme o licence.
+Ahora simplemente has lo que yo hago tambien copia la url ssh o https, la que quieras y si no averigua como usar la tercera opcion y solo haces esto: `git clone URL`, y automaticamente te crea la carpeta con el nombre de tu repositorio y todo esta ya configurado para que hagas push y commits sin necesida de configurarlo. La verdad esto es maravilloso y yo trabajaba asi con todos mis repositorios hasta el momento.
+Opciones para usar el vscode en la terminal lo que yo uso es: `code .` me habre en vscode toda la carpeta, claro siempre uso la terminal primero, `code /. -r` este no lo uso mucho porque casi siempre uso la terminal primero para hacer mis cosas pero lo que hace es que en vscode solo te carga la carpeta hay y nada mas.
+
+### Fork a proyectos en github
+
+Es facil hacer un fork solo vas al repositorio que quieres y utilizas el fork y creas un nuevo repositorio, la verdad o puedes crear un clone en donde quieras en mi caso lo hice en una carpeta donde estoy llevando este curso y ya habia hecho el clone anterior pero como te pide que crees deley un git clone entonses por eso lo hice en un repositorio que posteriormente eliminare, y me quedare solo con el que uso actualmente. aqui les dejo los archivos si les queda algo de dudas, [mi github](https://github.com/Sebas23cad/Tienda-online). Para hacer una contribucion debes entender como trabajaron el codigo y que es lo que puedes mejorar y porque se construyo de esa forma. Tambien lo hago porque no quiero hacer una contribucion, ya que yo ya tenia pensado como trabajar asi que igual es tu decision as lo que quieras y buena suerte.
+
+Ultima cosa y ya jaja, mira si haces lo que yo hice te va a pedir que borres el cache ya que estas causando confilto entre repositorios o bien cambies directamente todo tu url para donde quieres dirijido el push, asi que ya sabes tu decides que quieres hacer.
+
+### Analizando codigo de proyectos open-source
+
+Entiende el codigo y como esta construido, y que podemos hacer para ayudar y contribuir, claro si tu quieres si no, simplemente no contribuyas. Y lo unico que hacemos es basicamente solo vamos analizar el codigo.
 
 ---
 
